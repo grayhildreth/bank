@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <title>Bank of Epicodus</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Bank Account</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+
+          <h2>Bank of Epicodus</h2>
+          <form id="bank-account">
+            <div class="form-group">
+              <label for="balance-deposit">Balance Amount</label>
+              <input type="text" class="form-control" id="balance-deposit">
+            </div>
+            <div class="form-group">
+              <label for="withdrawl-amount">Withdrawal Amount</label>
+              <input type="text" class="form-control" id="withdrawal-amount">
+            </div>
+            <div class="form-group">
+              <label for="deposit-amount">Deposit Amount</label>
+              <input type="text" class="form-control" id="deposit-amount">
+            </div>
+            <button type="submit" class="btn">Confirm</button>
+          </form>
+          <div class="col-md-6">
+          <div id="output">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
